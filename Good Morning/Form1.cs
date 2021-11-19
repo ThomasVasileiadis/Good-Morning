@@ -12,6 +12,11 @@ namespace Good_Morning
 {
     public partial class Form1 : Form
     {
+        List<int> intList = new List<int>();
+        public int index = 0;
+        public int x;
+        public int sum;
+        public int totalsum;
         public Form1()
         {
             InitializeComponent();
@@ -19,22 +24,23 @@ namespace Good_Morning
 
         private void button1_Click(object sender, EventArgs e)
         {
-            list.Items.Add(button1.Text);
+            intList.Add(1);
+            index++;
+            list.Items.Add("1,00");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            list.Items.Add(button2.Text);
+            MessageBox.Show(totalsum.ToString(),"");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            list.Items.Add(button3.Text);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            list.Items.Add(button4.Text);
+            sum = intList.Sum();
+            totalsum = totalsum + sum;
+            MessageBox.Show(sum.ToString(),"");
+            intList.Clear();
+            list.Items.Clear();
         }
     }
 }
