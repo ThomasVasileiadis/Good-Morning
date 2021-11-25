@@ -61,6 +61,7 @@
             this.button31 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -168,7 +169,7 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(117, 45);
             this.button10.TabIndex = 21;
-            this.button10.Text = "0.50";
+            this.button10.Text = "1.10";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
@@ -178,7 +179,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(117, 45);
             this.button11.TabIndex = 22;
-            this.button11.Text = "0.50";
+            this.button11.Text = "0.70";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -208,7 +209,7 @@
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(117, 45);
             this.button14.TabIndex = 25;
-            this.button14.Text = "0.50";
+            this.button14.Text = "1.20";
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
@@ -298,7 +299,7 @@
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(117, 45);
             this.button23.TabIndex = 34;
-            this.button23.Text = "0.50";
+            this.button23.Text = "0.80";
             this.button23.UseVisualStyleBackColor = true;
             this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
@@ -380,6 +381,7 @@
             this.button29.TabIndex = 43;
             this.button29.Text = "CLEAR";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button32
             // 
@@ -389,12 +391,24 @@
             this.button32.TabIndex = 44;
             this.button32.Text = "<<<";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
+            // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(680, 459);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(240, 41);
+            this.button34.TabIndex = 46;
+            this.button34.Text = "Αλλαγή βάρδιας";
+            this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 524);
+            this.Controls.Add(this.button34);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.button31);
@@ -469,6 +483,7 @@
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button34;
     }
 }
 

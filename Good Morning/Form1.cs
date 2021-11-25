@@ -17,6 +17,7 @@ namespace Good_Morning
         public int x;
         public decimal sum;
         public decimal totalsum;
+        public int vardia;
         public Form1()
         {
             InitializeComponent();
@@ -172,6 +173,23 @@ namespace Good_Morning
         private void button30_Click(object sender, EventArgs e)
         {
             list.Items.Add(button30.Text);
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            list.Items.RemoveAt(list.SelectedIndex);
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            list.Items.Clear();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            Control ctrl = ((Control)sender);
+            ctrl.BackColor = Color.Green;
+            vardia = 1;
         }
     }
 }
