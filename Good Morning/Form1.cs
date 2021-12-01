@@ -47,9 +47,12 @@ namespace Good_Morning
             {
                 totalsum1 = totalsum1 + sum;
                 list.Items.Clear();
-            } else {
+            } else if (vardia ==2){
                 totalsum2 = totalsum2 + sum;
                 list.Items.Clear();
+            } else
+            {
+                MessageBox.Show("Παρακαλώ επιλέξτε βάρδια.");
             }
                 
             
