@@ -18,7 +18,7 @@ namespace Good_Morning
         public decimal sum;
         public decimal totalsum1;
         public decimal totalsum2;
-        public int vardia;
+        public int vardia=0;
         public Form1()
         {
             InitializeComponent();
@@ -31,7 +31,13 @@ namespace Good_Morning
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(totalsum1.ToString(),"");
+            if (vardia == 1) { 
+                MessageBox.Show(totalsum1.ToString(), ""); 
+            } else
+            {
+                MessageBox.Show(totalsum2.ToString(), "");
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -41,9 +47,11 @@ namespace Good_Morning
             {
                 totalsum1 = totalsum1 + sum;
                 list.Items.Clear();
-            } 
+            } else {
                 totalsum2 = totalsum2 + sum;
                 list.Items.Clear();
+            }
+                
             
         }
 
@@ -197,6 +205,7 @@ namespace Good_Morning
             vardia = 1;
             Control ctrl = ((Control)sender);
             ctrl.BackColor = Color.Green;
+            button33.BackColor = Color.DarkGray;
         }
 
         private void button33_Click(object sender, EventArgs e)
@@ -204,6 +213,12 @@ namespace Good_Morning
             vardia = 2;
             Control ctrl = ((Control)sender);
             ctrl.BackColor = Color.Green;
+            button34.BackColor = Color.DarkGray;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
