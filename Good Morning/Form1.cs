@@ -162,9 +162,6 @@ namespace Good_Morning
             resizeChildrenControls();
         }
 
-
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             list.Items.Add(button1.Text);
