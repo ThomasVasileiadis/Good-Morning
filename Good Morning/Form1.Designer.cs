@@ -67,7 +67,6 @@
             // 
             // button1
             // 
-            this.button1.AutoSize = true;
             this.button1.Location = new System.Drawing.Point(308, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(142, 63);
@@ -107,7 +106,6 @@
             // 
             // button5
             // 
-            this.button5.AutoSize = true;
             this.button5.Location = new System.Drawing.Point(12, 81);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(142, 63);
@@ -118,7 +116,6 @@
             // 
             // button6
             // 
-            this.button6.AutoSize = true;
             this.button6.Location = new System.Drawing.Point(308, 81);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(142, 63);
@@ -129,7 +126,6 @@
             // 
             // button7
             // 
-            this.button7.AutoSize = true;
             this.button7.Location = new System.Drawing.Point(308, 495);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(142, 63);
@@ -140,7 +136,6 @@
             // 
             // button8
             // 
-            this.button8.AutoSize = true;
             this.button8.Location = new System.Drawing.Point(12, 495);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(142, 63);
@@ -151,7 +146,6 @@
             // 
             // button9
             // 
-            this.button9.AutoSize = true;
             this.button9.Location = new System.Drawing.Point(12, 288);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(142, 63);
@@ -162,7 +156,6 @@
             // 
             // button4
             // 
-            this.button4.AutoSize = true;
             this.button4.Location = new System.Drawing.Point(308, 426);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(142, 63);
@@ -173,7 +166,6 @@
             // 
             // button10
             // 
-            this.button10.AutoSize = true;
             this.button10.Location = new System.Drawing.Point(12, 357);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(142, 63);
@@ -184,7 +176,6 @@
             // 
             // button11
             // 
-            this.button11.AutoSize = true;
             this.button11.Location = new System.Drawing.Point(12, 150);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(142, 63);
@@ -195,7 +186,6 @@
             // 
             // button12
             // 
-            this.button12.AutoSize = true;
             this.button12.Location = new System.Drawing.Point(160, 150);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(142, 63);
@@ -206,7 +196,6 @@
             // 
             // button13
             // 
-            this.button13.AutoSize = true;
             this.button13.Location = new System.Drawing.Point(308, 357);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(142, 63);
@@ -217,7 +206,6 @@
             // 
             // button14
             // 
-            this.button14.AutoSize = true;
             this.button14.Location = new System.Drawing.Point(12, 426);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(142, 63);
@@ -228,7 +216,6 @@
             // 
             // button15
             // 
-            this.button15.AutoSize = true;
             this.button15.Location = new System.Drawing.Point(160, 495);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(142, 63);
@@ -239,7 +226,6 @@
             // 
             // button16
             // 
-            this.button16.AutoSize = true;
             this.button16.Location = new System.Drawing.Point(160, 288);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(142, 63);
@@ -250,7 +236,6 @@
             // 
             // button17
             // 
-            this.button17.AutoSize = true;
             this.button17.Location = new System.Drawing.Point(160, 564);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(142, 63);
@@ -261,7 +246,6 @@
             // 
             // button18
             // 
-            this.button18.AutoSize = true;
             this.button18.Location = new System.Drawing.Point(308, 564);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(142, 63);
@@ -272,7 +256,6 @@
             // 
             // button19
             // 
-            this.button19.AutoSize = true;
             this.button19.Location = new System.Drawing.Point(160, 219);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(142, 63);
@@ -283,7 +266,6 @@
             // 
             // button20
             // 
-            this.button20.AutoSize = true;
             this.button20.Location = new System.Drawing.Point(160, 357);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(142, 63);
@@ -294,7 +276,6 @@
             // 
             // button21
             // 
-            this.button21.AutoSize = true;
             this.button21.Location = new System.Drawing.Point(160, 426);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(142, 63);
@@ -305,7 +286,6 @@
             // 
             // button22
             // 
-            this.button22.AutoSize = true;
             this.button22.Location = new System.Drawing.Point(12, 564);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(142, 63);
@@ -316,7 +296,6 @@
             // 
             // button23
             // 
-            this.button23.AutoSize = true;
             this.button23.Location = new System.Drawing.Point(12, 219);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(142, 63);
@@ -327,7 +306,6 @@
             // 
             // button24
             // 
-            this.button24.AutoSize = true;
             this.button24.Location = new System.Drawing.Point(160, 12);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(142, 63);
@@ -338,7 +316,6 @@
             // 
             // button25
             // 
-            this.button25.AutoSize = true;
             this.button25.Location = new System.Drawing.Point(456, 12);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(142, 63);
@@ -349,7 +326,6 @@
             // 
             // button26
             // 
-            this.button26.AutoSize = true;
             this.button26.Location = new System.Drawing.Point(308, 219);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(142, 63);
@@ -360,7 +336,6 @@
             // 
             // button27
             // 
-            this.button27.AutoSize = true;
             this.button27.Location = new System.Drawing.Point(308, 288);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(142, 63);
@@ -371,7 +346,6 @@
             // 
             // button28
             // 
-            this.button28.AutoSize = true;
             this.button28.Location = new System.Drawing.Point(12, 12);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(142, 63);
@@ -382,7 +356,6 @@
             // 
             // button30
             // 
-            this.button30.AutoSize = true;
             this.button30.Location = new System.Drawing.Point(308, 150);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(142, 63);
@@ -393,7 +366,6 @@
             // 
             // button31
             // 
-            this.button31.AutoSize = true;
             this.button31.Location = new System.Drawing.Point(160, 81);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(142, 63);
@@ -446,9 +418,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1184, 638);
+            this.ClientSize = new System.Drawing.Size(1190, 640);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button32);
@@ -484,12 +454,12 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.list);
             this.Controls.Add(this.button1);
-            this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
