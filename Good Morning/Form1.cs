@@ -344,6 +344,11 @@ namespace Good_Morning
             list.Items.Clear();
         }
 
+        private void button25_Click_1(object sender, EventArgs e)
+        {
+            list.Items.Add(button25.Text);
+        }
+
         private void button34_Click(object sender, EventArgs e)
         {
             vardia = 1;
