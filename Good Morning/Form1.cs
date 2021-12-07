@@ -170,10 +170,10 @@ namespace Good_Morning
         private void button2_Click(object sender, EventArgs e)
         {
             if (vardia == 1) { 
-                MessageBox.Show(totalsum1.ToString(), ""); 
+                MessageBox.Show(totalsum1.ToString(), "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 1"); 
             } else
             {
-                MessageBox.Show(totalsum2.ToString(), "");
+                MessageBox.Show(totalsum2.ToString(), "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 2");
             }
 
         }
