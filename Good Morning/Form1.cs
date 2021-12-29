@@ -12,6 +12,7 @@ using System.IO;
 
 namespace Good_Morning
 {
+
     public partial class Form1 : Form
     {
         private Rectangle button1OriginalRect;
@@ -59,6 +60,8 @@ namespace Good_Morning
         public decimal totalsum1;
         public decimal totalsum2;
         public int vardia=0;
+        public int clickCounter = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -101,7 +104,10 @@ namespace Good_Morning
             button33OriginalRect = new Rectangle(button33.Location.X, button33.Location.Y, button33.Width, button33.Height);
             button34OriginalRect = new Rectangle(button34.Location.X, button34.Location.Y, button34.Width, button34.Height);
             listOriginalRect = new Rectangle(list.Location.X, list.Location.Y, list.Width, list.Height);
-        }
+            
+    }
+
+        
 
         private void resizeChildrenControls()
         {
@@ -165,6 +171,7 @@ namespace Good_Morning
         private void button1_Click(object sender, EventArgs e)
         {
             list.Items.Add(button1.Text);
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -244,6 +251,13 @@ namespace Good_Morning
         private void button13_Click(object sender, EventArgs e)
         {
             list.Items.Add(button13.Text);
+            clickCounter++;
+
+            if (clickCounter > 4)
+            {
+                MessageBox.Show("You clicked 5 times.");
+                clickCounter = 0;
+            }
         }
 
         private void button21_Click(object sender, EventArgs e)

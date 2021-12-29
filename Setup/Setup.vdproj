@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DD5EF8C5115B41AE9199F5E8A761D46C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DDC08B502BAC40AD87FCF82484FB48C8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -137,6 +143,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD5EF8C5115B41AE9199F5E8A761D46C"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\cashregister_106599.ico"
+            "TargetName" = "8:cashregister_106599.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_28796451EFCB476ABE58F4863C776B87"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDC08B502BAC40AD87FCF82484FB48C8"
             {
             "SourcePath" = "8:..\\..\\..\\..\\..\\Downloads\\Cash_Register_icon-icons.com_56684.ico"
@@ -212,9 +238,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:Good Morning"
         "ProductCode" = "8:{5BE933F7-5314-489A-8349-697965B11F58}"
-        "PackageCode" = "8:{F56DA927-7FBF-464B-9929-657311D02C10}"
+        "PackageCode" = "8:{57AACDA7-2968-4CA6-AEE2-E548A573BD93}"
         "UpgradeCode" = "8:{CEA3A7C0-1673-4A0D-B8BB-8F99F255C42D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -222,7 +248,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:Thomas Vasileiadis"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Setup"
@@ -345,7 +371,7 @@
             "Target" = "8:_38240E0A36084DDABE1984B92B2C27F6"
             "Folder" = "8:_3B060BEBD563439AA3D1C398C3F80EB6"
             "WorkingFolder" = "8:_28796451EFCB476ABE58F4863C776B87"
-            "Icon" = "8:_DDC08B502BAC40AD87FCF82484FB48C8"
+            "Icon" = "8:_DD5EF8C5115B41AE9199F5E8A761D46C"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8BC362DCFD5D4CFB974CD92A9A226035"
@@ -359,7 +385,7 @@
             "Target" = "8:_38240E0A36084DDABE1984B92B2C27F6"
             "Folder" = "8:_29C554C997AA40BB943F228A2A2FF890"
             "WorkingFolder" = "8:_28796451EFCB476ABE58F4863C776B87"
-            "Icon" = "8:_DDC08B502BAC40AD87FCF82484FB48C8"
+            "Icon" = "8:_DD5EF8C5115B41AE9199F5E8A761D46C"
             "Feature" = "8:"
             }
         }
