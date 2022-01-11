@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+using Microsoft.VisualBasic;
+using Good_Morning.Properties;
 
 namespace Good_Morning
 {
@@ -68,6 +69,38 @@ namespace Good_Morning
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            button1.Text = Settings.Default.button1;
+            //button2.Text = Settings.Default.button2;
+            //button3.Text = Settings.Default.button3;
+            button4.Text = Settings.Default.button4;
+            button5.Text = Settings.Default.button5;
+            button6.Text = Settings.Default.button6;
+            button7.Text = Settings.Default.button7;
+            button8.Text = Settings.Default.button8;
+            button9.Text = Settings.Default.button9;
+            button10.Text = Settings.Default.button10;
+            button11.Text = Settings.Default.button11;
+            button12.Text = Settings.Default.button12;
+            button13.Text = Settings.Default.button13;
+            button14.Text = Settings.Default.button14;
+            button15.Text = Settings.Default.button15;
+            button16.Text = Settings.Default.button16;
+            button17.Text = Settings.Default.button17;
+            button18.Text = Settings.Default.button18;
+            button19.Text = Settings.Default.button19;
+            button20.Text = Settings.Default.button20;
+            button21.Text = Settings.Default.button21;
+            button22.Text = Settings.Default.button22;
+            button23.Text = Settings.Default.button23;
+            button24.Text = Settings.Default.button24;
+            button25.Text = Settings.Default.button25;
+            button26.Text = Settings.Default.button26;
+            button27.Text = Settings.Default.button27;
+            button28.Text = Settings.Default.button28;
+            //button29.Text = Settings.Default.button29;
+
+
+
             formOriginalSize = this.Size;
             button1OriginalRect = new Rectangle(button1.Location.X, button1.Location.Y, button1.Width, button1.Height);
             button2OriginalRect = new Rectangle(button2.Location.X, button2.Location.Y, button2.Width, button2.Height);
@@ -176,11 +209,19 @@ namespace Good_Morning
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (vardia == 1) { 
-                MessageBox.Show(totalsum1.ToString(), "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 1"); 
+            string oldChar = ".";
+            string newChar = ",";
+            string strTotalSum1 = totalsum1.ToString();
+            string strTotalSum2 = totalsum2.ToString();
+            strTotalSum1 = strTotalSum1.Replace(oldChar, newChar);
+            strTotalSum2 = strTotalSum2.Replace(oldChar, newChar);
+            if (vardia == 1) {
+                
+
+                MessageBox.Show(strTotalSum1 + "€", "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 1"); 
             } else
             {
-                MessageBox.Show(totalsum2.ToString(), "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 2");
+                MessageBox.Show(strTotalSum2 + "€", "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 2");
             }
 
         }
@@ -251,13 +292,6 @@ namespace Good_Morning
         private void button13_Click(object sender, EventArgs e)
         {
             list.Items.Add(button13.Text);
-            clickCounter++;
-
-            if (clickCounter > 4)
-            {
-                MessageBox.Show("You clicked 5 times.");
-                clickCounter = 0;
-            }
         }
 
         private void button21_Click(object sender, EventArgs e)
@@ -377,6 +411,178 @@ namespace Good_Morning
             button34.BackColor = Color.DarkGray;
         }
 
-        
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+
+        private void αλλαγήΤιμήςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message, title, defaultValue;
+            object myValue;
+            string ControlsName;
+            object Obj1;
+            ControlsName = contextMenuStrip1.SourceControl.Name.ToString();
+
+            message = "Vale arithmo:";
+
+            title = "Input test";
+
+            defaultValue = "0";
+
+            myValue = Interaction.InputBox(message, title, defaultValue);
+
+            Console.WriteLine(ControlsName);
+
+            switch (ControlsName)
+            {
+                case "button28":
+                    button28.Text = myValue.ToString();
+                    Settings.Default.button28 = button28.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button27":
+                    button27.Text = myValue.ToString();
+                    Settings.Default.button27 = button27.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button26":
+                    button26.Text = myValue.ToString();
+                    Settings.Default.button26 = button26.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button25":
+                    button25.Text = myValue.ToString();
+                    Settings.Default.button25 = button25.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button24":
+                    button24.Text = myValue.ToString();
+                    Settings.Default.button24 = button24.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button23":
+                    button23.Text = myValue.ToString();
+                    Settings.Default.button23 = button23.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button22":
+                    button22.Text = myValue.ToString();
+                    Settings.Default.button22 = button22.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button21":
+                    button21.Text = myValue.ToString();
+                    Settings.Default.button21 = button21.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button20":
+                    button20.Text = myValue.ToString();
+                    Settings.Default.button20 = button20.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button19":
+                    button19.Text = myValue.ToString();
+                    Settings.Default.button19 = button19.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button18":
+                    button18.Text = myValue.ToString();
+                    Settings.Default.button18 = button18.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button17":
+                    button17.Text = myValue.ToString();
+                    Settings.Default.button17 = button17.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button16":
+                    button16.Text = myValue.ToString();
+                    Settings.Default.button16 = button16.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button15":
+                    button15.Text = myValue.ToString();
+                    Settings.Default.button15 = button15.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button14":
+                    button14.Text = myValue.ToString();
+                    Settings.Default.button14 = button14.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button13":
+                    button13.Text = myValue.ToString();
+                    Settings.Default.button13 = button13.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button12":
+                    button12.Text = myValue.ToString();
+                    Settings.Default.button12 = button12.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button11":
+                    button11.Text = myValue.ToString();
+                    Settings.Default.button11 = button11.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button10":
+                    button10.Text = myValue.ToString();
+                    Settings.Default.button10 = button10.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button9":
+                    button9.Text = myValue.ToString();
+                    Settings.Default.button9 = button9.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button8":
+                    button8.Text = myValue.ToString();
+                    Settings.Default.button8 = button8.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button7":
+                    button7.Text = myValue.ToString();
+                    Settings.Default.button7 = button7.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button6":
+                    button6.Text = myValue.ToString();
+                    Settings.Default.button6 = button6.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button5":
+                    button5.Text = myValue.ToString();
+                    Settings.Default.button5 = button5.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button4":
+                    button4.Text = myValue.ToString();
+                    Settings.Default.button4 = button4.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button3":
+                    button3.Text = myValue.ToString();
+                    Settings.Default.button3 = button3.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button2":
+                    button2.Text = myValue.ToString();
+                    Settings.Default.button2 = button2.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button1":
+                    button1.Text = myValue.ToString();
+                    Settings.Default.button1 = button1.Text;
+                    Settings.Default.Save();
+                    break;
+
+
+            }
+
+            //ControlsName.Text = myValue.ToString();
+
+        }
     }
 }

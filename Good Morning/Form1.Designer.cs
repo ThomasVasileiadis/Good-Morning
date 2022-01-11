@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.list = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -63,10 +64,15 @@
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.αλλαγήΤιμήςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.έξοδοςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.ContextMenuStrip = this.contextMenuStrip1;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(354, 184);
             this.button1.Name = "button1";
@@ -110,6 +116,7 @@
             // 
             // button5
             // 
+            this.button5.ContextMenuStrip = this.contextMenuStrip1;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(12, 98);
             this.button5.Name = "button5";
@@ -121,6 +128,7 @@
             // 
             // button6
             // 
+            this.button6.ContextMenuStrip = this.contextMenuStrip1;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(525, 98);
             this.button6.Name = "button6";
@@ -132,6 +140,7 @@
             // 
             // button7
             // 
+            this.button7.ContextMenuStrip = this.contextMenuStrip1;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(354, 528);
             this.button7.Name = "button7";
@@ -143,6 +152,7 @@
             // 
             // button8
             // 
+            this.button8.ContextMenuStrip = this.contextMenuStrip1;
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(183, 12);
             this.button8.Name = "button8";
@@ -154,6 +164,7 @@
             // 
             // button9
             // 
+            this.button9.ContextMenuStrip = this.contextMenuStrip1;
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(12, 356);
             this.button9.Name = "button9";
@@ -165,6 +176,7 @@
             // 
             // button4
             // 
+            this.button4.ContextMenuStrip = this.contextMenuStrip1;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(525, 270);
             this.button4.Name = "button4";
@@ -176,6 +188,7 @@
             // 
             // button10
             // 
+            this.button10.ContextMenuStrip = this.contextMenuStrip1;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(12, 442);
             this.button10.Name = "button10";
@@ -187,6 +200,7 @@
             // 
             // button11
             // 
+            this.button11.ContextMenuStrip = this.contextMenuStrip1;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(12, 184);
             this.button11.Name = "button11";
@@ -198,6 +212,7 @@
             // 
             // button12
             // 
+            this.button12.ContextMenuStrip = this.contextMenuStrip1;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(354, 12);
             this.button12.Name = "button12";
@@ -209,6 +224,7 @@
             // 
             // button13
             // 
+            this.button13.ContextMenuStrip = this.contextMenuStrip1;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(12, 12);
             this.button13.Name = "button13";
@@ -220,6 +236,7 @@
             // 
             // button14
             // 
+            this.button14.ContextMenuStrip = this.contextMenuStrip1;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(12, 528);
             this.button14.Name = "button14";
@@ -231,6 +248,7 @@
             // 
             // button15
             // 
+            this.button15.ContextMenuStrip = this.contextMenuStrip1;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(525, 356);
             this.button15.Name = "button15";
@@ -242,6 +260,7 @@
             // 
             // button16
             // 
+            this.button16.ContextMenuStrip = this.contextMenuStrip1;
             this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(183, 528);
             this.button16.Name = "button16";
@@ -253,6 +272,7 @@
             // 
             // button17
             // 
+            this.button17.ContextMenuStrip = this.contextMenuStrip1;
             this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Location = new System.Drawing.Point(525, 442);
             this.button17.Name = "button17";
@@ -264,6 +284,7 @@
             // 
             // button18
             // 
+            this.button18.ContextMenuStrip = this.contextMenuStrip1;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Location = new System.Drawing.Point(354, 270);
             this.button18.Name = "button18";
@@ -275,6 +296,7 @@
             // 
             // button19
             // 
+            this.button19.ContextMenuStrip = this.contextMenuStrip1;
             this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(183, 442);
             this.button19.Name = "button19";
@@ -286,6 +308,7 @@
             // 
             // button20
             // 
+            this.button20.ContextMenuStrip = this.contextMenuStrip1;
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(525, 184);
             this.button20.Name = "button20";
@@ -297,6 +320,7 @@
             // 
             // button21
             // 
+            this.button21.ContextMenuStrip = this.contextMenuStrip1;
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(183, 184);
             this.button21.Name = "button21";
@@ -308,6 +332,7 @@
             // 
             // button22
             // 
+            this.button22.ContextMenuStrip = this.contextMenuStrip1;
             this.button22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Location = new System.Drawing.Point(183, 356);
             this.button22.Name = "button22";
@@ -319,6 +344,7 @@
             // 
             // button23
             // 
+            this.button23.ContextMenuStrip = this.contextMenuStrip1;
             this.button23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(12, 270);
             this.button23.Name = "button23";
@@ -330,6 +356,7 @@
             // 
             // button24
             // 
+            this.button24.ContextMenuStrip = this.contextMenuStrip1;
             this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(183, 270);
             this.button24.Name = "button24";
@@ -341,6 +368,7 @@
             // 
             // button26
             // 
+            this.button26.ContextMenuStrip = this.contextMenuStrip1;
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.Location = new System.Drawing.Point(354, 442);
             this.button26.Name = "button26";
@@ -352,6 +380,7 @@
             // 
             // button27
             // 
+            this.button27.ContextMenuStrip = this.contextMenuStrip1;
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.Location = new System.Drawing.Point(183, 98);
             this.button27.Name = "button27";
@@ -363,6 +392,7 @@
             // 
             // button28
             // 
+            this.button28.ContextMenuStrip = this.contextMenuStrip1;
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.Location = new System.Drawing.Point(525, 12);
             this.button28.Name = "button28";
@@ -374,6 +404,7 @@
             // 
             // button30
             // 
+            this.button30.ContextMenuStrip = this.contextMenuStrip1;
             this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.Location = new System.Drawing.Point(354, 356);
             this.button30.Name = "button30";
@@ -385,6 +416,7 @@
             // 
             // button31
             // 
+            this.button31.ContextMenuStrip = this.contextMenuStrip1;
             this.button31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button31.Location = new System.Drawing.Point(354, 98);
             this.button31.Name = "button31";
@@ -441,6 +473,7 @@
             // 
             // button25
             // 
+            this.button25.ContextMenuStrip = this.contextMenuStrip1;
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.Location = new System.Drawing.Point(525, 528);
             this.button25.Name = "button25";
@@ -449,6 +482,28 @@
             this.button25.Text = "0.50";
             this.button25.UseVisualStyleBackColor = true;
             this.button25.Click += new System.EventHandler(this.button25_Click_1);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.αλλαγήΤιμήςToolStripMenuItem,
+            this.έξοδοςToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(147, 48);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+            // 
+            // αλλαγήΤιμήςToolStripMenuItem
+            // 
+            this.αλλαγήΤιμήςToolStripMenuItem.Name = "αλλαγήΤιμήςToolStripMenuItem";
+            this.αλλαγήΤιμήςToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.αλλαγήΤιμήςToolStripMenuItem.Text = "Αλλαγή τιμής";
+            this.αλλαγήΤιμήςToolStripMenuItem.Click += new System.EventHandler(this.αλλαγήΤιμήςToolStripMenuItem_Click);
+            // 
+            // έξοδοςToolStripMenuItem
+            // 
+            this.έξοδοςToolStripMenuItem.Name = "έξοδοςToolStripMenuItem";
+            this.έξοδοςToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.έξοδοςToolStripMenuItem.Text = "Έξοδος";
             // 
             // Form1
             // 
@@ -495,6 +550,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -536,6 +592,9 @@
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem αλλαγήΤιμήςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem έξοδοςToolStripMenuItem;
     }
 }
 
