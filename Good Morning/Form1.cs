@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using System.IO;
 using Microsoft.VisualBasic;
 using Good_Morning.Properties;
+using System.IO;
+using System.Threading.Tasks;
+using System.Diagnostics;
+using System.Globalization;
 
 namespace Good_Morning
 {
@@ -50,6 +54,30 @@ namespace Good_Morning
         private Rectangle button32OriginalRect;
         private Rectangle button33OriginalRect;
         private Rectangle button34OriginalRect;
+        private Rectangle button35OriginalRect;
+        private Rectangle button36OriginalRect;
+        private Rectangle button37OriginalRect;
+        private Rectangle button38OriginalRect;
+        private Rectangle button39OriginalRect;
+        private Rectangle button40OriginalRect;
+        private Rectangle button41OriginalRect;
+        private Rectangle button42OriginalRect;
+        private Rectangle button43OriginalRect;
+        private Rectangle button44OriginalRect;
+        private Rectangle button45OriginalRect;
+        private Rectangle button46OriginalRect;
+        private Rectangle button47OriginalRect;
+        private Rectangle button48OriginalRect;
+        private Rectangle button49OriginalRect;
+        private Rectangle button50OriginalRect;
+        private Rectangle button51OriginalRect;
+        private Rectangle button52OriginalRect;
+        private Rectangle button53OriginalRect;
+        private Rectangle button54OriginalRect;
+        private Rectangle button55OriginalRect;
+        private Rectangle button56OriginalRect;
+        private Rectangle button57OriginalRect;
+        private Rectangle button58OriginalRect;
         private Rectangle listOriginalRect;
         private Size formOriginalSize;
 
@@ -62,6 +90,7 @@ namespace Good_Morning
         public decimal totalsum2;
         public int vardia=0;
         public int clickCounter = 0;
+        public string CurrencyDecimalSeparator { get; set; }
 
         public Form1()
         {
@@ -69,6 +98,8 @@ namespace Good_Morning
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+
             button1.Text = Settings.Default.button1;
             //button2.Text = Settings.Default.button2;
             //button3.Text = Settings.Default.button3;
@@ -98,12 +129,43 @@ namespace Good_Morning
             button27.Text = Settings.Default.button27;
             button28.Text = Settings.Default.button28;
             //button29.Text = Settings.Default.button29;
+            button30.Text = Settings.Default.button30;
+            button31.Text = Settings.Default.button31;
+            //button32.Text = Settings.Default.button32;
+            //button33.Text = Settings.Default.button33;
+            //button34.Text = Settings.Default.button34;
+            button35.Text = Settings.Default.button35;
+            button36.Text = Settings.Default.button36;
+            button37.Text = Settings.Default.button37;
+            button38.Text = Settings.Default.button38;
+            button39.Text = Settings.Default.button39;
+            button40.Text = Settings.Default.button40;
+            button41.Text = Settings.Default.button41;
+            button42.Text = Settings.Default.button42;
+            button43.Text = Settings.Default.button43;
+            button44.Text = Settings.Default.button44;
+            button45.Text = Settings.Default.button45;
+            button46.Text = Settings.Default.button46;
+            button47.Text = Settings.Default.button47;
+            button48.Text = Settings.Default.button48;
+            button49.Text = Settings.Default.button49;
+            button50.Text = Settings.Default.button50;
+            button51.Text = Settings.Default.button51;
+            button52.Text = Settings.Default.button52;
+            button53.Text = Settings.Default.button53;
+            button54.Text = Settings.Default.button54;
+            button55.Text = Settings.Default.button55;
+            //button56.Text = Settings.Default.button56;
+            //button57.Text = Settings.Default.button57;
+            //button58.Text = Settings.Default.button58;
+
+
 
 
 
             formOriginalSize = this.Size;
             button1OriginalRect = new Rectangle(button1.Location.X, button1.Location.Y, button1.Width, button1.Height);
-            button2OriginalRect = new Rectangle(button2.Location.X, button2.Location.Y, button2.Width, button2.Height);
+            //button2OriginalRect = new Rectangle(button2.Location.X, button2.Location.Y, button2.Width, button2.Height);
             button3OriginalRect = new Rectangle(button3.Location.X, button3.Location.Y, button3.Width, button3.Height);
             button4OriginalRect = new Rectangle(button4.Location.X, button4.Location.Y, button4.Width, button4.Height);
             button5OriginalRect = new Rectangle(button5.Location.X, button5.Location.Y, button5.Width, button5.Height);
@@ -136,6 +198,29 @@ namespace Good_Morning
             button32OriginalRect = new Rectangle(button32.Location.X, button32.Location.Y, button32.Width, button32.Height);
             button33OriginalRect = new Rectangle(button33.Location.X, button33.Location.Y, button33.Width, button33.Height);
             button34OriginalRect = new Rectangle(button34.Location.X, button34.Location.Y, button34.Width, button34.Height);
+            button35OriginalRect = new Rectangle(button35.Location.X, button35.Location.Y, button35.Width, button35.Height);
+            button36OriginalRect = new Rectangle(button36.Location.X, button36.Location.Y, button36.Width, button36.Height);
+            button37OriginalRect = new Rectangle(button37.Location.X, button37.Location.Y, button37.Width, button37.Height);
+            button38OriginalRect = new Rectangle(button38.Location.X, button38.Location.Y, button38.Width, button38.Height);
+            button39OriginalRect = new Rectangle(button39.Location.X, button39.Location.Y, button39.Width, button39.Height);
+            button40OriginalRect = new Rectangle(button40.Location.X, button40.Location.Y, button40.Width, button40.Height);
+            button41OriginalRect = new Rectangle(button41.Location.X, button41.Location.Y, button41.Width, button41.Height);
+            button42OriginalRect = new Rectangle(button42.Location.X, button42.Location.Y, button42.Width, button42.Height);
+            button43OriginalRect = new Rectangle(button43.Location.X, button43.Location.Y, button43.Width, button43.Height);
+            button44OriginalRect = new Rectangle(button44.Location.X, button44.Location.Y, button44.Width, button44.Height);
+            button45OriginalRect = new Rectangle(button45.Location.X, button45.Location.Y, button45.Width, button45.Height);
+            button46OriginalRect = new Rectangle(button46.Location.X, button46.Location.Y, button46.Width, button46.Height);
+            button47OriginalRect = new Rectangle(button47.Location.X, button47.Location.Y, button47.Width, button47.Height);
+            button48OriginalRect = new Rectangle(button48.Location.X, button48.Location.Y, button48.Width, button48.Height);
+            button49OriginalRect = new Rectangle(button49.Location.X, button49.Location.Y, button49.Width, button49.Height);
+            button50OriginalRect = new Rectangle(button50.Location.X, button50.Location.Y, button50.Width, button50.Height);
+            button51OriginalRect = new Rectangle(button51.Location.X, button51.Location.Y, button51.Width, button51.Height);
+            button52OriginalRect = new Rectangle(button52.Location.X, button52.Location.Y, button52.Width, button52.Height);
+            button53OriginalRect = new Rectangle(button53.Location.X, button53.Location.Y, button53.Width, button53.Height);
+            button54OriginalRect = new Rectangle(button54.Location.X, button54.Location.Y, button54.Width, button54.Height);
+            button55OriginalRect = new Rectangle(button55.Location.X, button55.Location.Y, button55.Width, button55.Height);
+            button56OriginalRect = new Rectangle(button56.Location.X, button56.Location.Y, button56.Width, button56.Height);
+            //button58OriginalRect = new Rectangle(button58.Location.X, button58.Location.Y, button58.Width, button58.Height);
             listOriginalRect = new Rectangle(list.Location.X, list.Location.Y, list.Width, list.Height);
             
     }
@@ -145,7 +230,7 @@ namespace Good_Morning
         private void resizeChildrenControls()
         {
             resizeControl(button1OriginalRect, button1);
-            resizeControl(button2OriginalRect, button2);
+            //resizeControl(button2OriginalRect, button2);
             resizeControl(button3OriginalRect, button3);
             resizeControl(button4OriginalRect, button4);
             resizeControl(button5OriginalRect, button5);
@@ -178,6 +263,28 @@ namespace Good_Morning
             resizeControl(button32OriginalRect, button32);
             resizeControl(button33OriginalRect, button33);
             resizeControl(button34OriginalRect, button34);
+            resizeControl(button35OriginalRect, button35);
+            resizeControl(button36OriginalRect, button36);
+            resizeControl(button37OriginalRect, button37);
+            resizeControl(button38OriginalRect, button38);
+            resizeControl(button39OriginalRect, button39);
+            resizeControl(button40OriginalRect, button40);
+            resizeControl(button41OriginalRect, button41);
+            resizeControl(button42OriginalRect, button42);
+            resizeControl(button43OriginalRect, button43);
+            resizeControl(button44OriginalRect, button44);
+            resizeControl(button45OriginalRect, button45);
+            resizeControl(button46OriginalRect, button46);
+            resizeControl(button47OriginalRect, button47);
+            resizeControl(button48OriginalRect, button48);
+            resizeControl(button49OriginalRect, button49);
+            resizeControl(button50OriginalRect, button50);
+            resizeControl(button51OriginalRect, button51);
+            resizeControl(button52OriginalRect, button52);
+            resizeControl(button53OriginalRect, button53);
+            resizeControl(button54OriginalRect, button54);
+            resizeControl(button55OriginalRect, button55);
+            resizeControl(button56OriginalRect, button56);
             resizeControl(listOriginalRect, list);
         }
 
@@ -216,11 +323,12 @@ namespace Good_Morning
             strTotalSum1 = strTotalSum1.Replace(oldChar, newChar);
             strTotalSum2 = strTotalSum2.Replace(oldChar, newChar);
             if (vardia == 1) {
-                
 
+                Console.WriteLine(strTotalSum1);
                 MessageBox.Show(strTotalSum1 + "€", "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 1"); 
             } else
             {
+                Console.WriteLine(strTotalSum2);
                 MessageBox.Show(strTotalSum2 + "€", "ΣΥΝΟΛΟ ΒΑΡΔΙΑΣ 2");
             }
 
@@ -228,14 +336,46 @@ namespace Good_Morning
 
         private void button3_Click(object sender, EventArgs e)
         {
+            string path = System.Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
+            string completepath = Path.Combine(path + "\\");
+            //completepath = completepath + "\\";
+            Console.WriteLine(completepath);
+            System.IO.Directory.CreateDirectory(completepath + "Good_Morning");
+            string time = DateTime.Now.ToString("HH-mm-ss");
+            string date = DateTime.Now.ToString("dd-MM-yyyy");
+            string fullname1 = date + "-" + time + "-vardia1.txt";
+            string fullname2 = date + "-" + time + "-vardia2.txt";
+
+            // Gets a NumberFormatInfo associated with the en-US culture.
+            NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
+
+
+
             sum = list.Items.OfType<object>().Sum(x => Convert.ToDecimal(x));
             if ( vardia == 1)
             {
                 totalsum1 = totalsum1 + sum;
                 list.Items.Clear();
+                string strTotalSum1 = totalsum1.ToString(new CultureInfo("gr-GR"));
+                
+                StreamWriter sw = new StreamWriter(completepath + "Good_Morning\\" +  fullname1);
+                sw.WriteLine("Το σύνολο βάρδιας 1 είναι: " + strTotalSum1 + "€");
+                sw.Close();
+                string text = File.ReadAllText(completepath + "Good_Morning\\" + fullname1);
+                text = text.Replace(".", ",");
+                File.WriteAllText(completepath + "Good_Morning\\" + fullname1, text);
             } else if (vardia ==2){
                 totalsum2 = totalsum2 + sum;
                 list.Items.Clear();
+                string strTotalSum2 = totalsum2.ToString();
+                strTotalSum2 = strTotalSum2.Replace('.', ',');
+                Console.WriteLine(strTotalSum2);
+                StreamWriter sw = new StreamWriter(completepath + "Good_Morning\\" + fullname2);
+                sw.WriteLine("Το σύνολο βάρδιας 2 είναι: " + strTotalSum2 + "€");
+                sw.Close();
+                string text = File.ReadAllText(completepath + "Good_Morning\\" + fullname2);
+                text = text.Replace(".", ",");
+                File.WriteAllText(completepath + "Good_Morning\\" + fullname2, text);
             } else
             {
                 MessageBox.Show("Παρακαλώ επιλέξτε βάρδια.");
@@ -425,9 +565,9 @@ namespace Good_Morning
             object Obj1;
             ControlsName = contextMenuStrip1.SourceControl.Name.ToString();
 
-            message = "Vale arithmo:";
+            message = "Δώσε νέα τιμή:";
 
-            title = "Input test";
+            title = "Αλλαγή τιμής";
 
             defaultValue = "0";
 
@@ -437,6 +577,136 @@ namespace Good_Morning
 
             switch (ControlsName)
             {
+                case "button54":
+                    button54.Text = myValue.ToString();
+                    Settings.Default.button54 = button54.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button53":
+                    button53.Text = myValue.ToString();
+                    Settings.Default.button53 = button53.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button52":
+                    button52.Text = myValue.ToString();
+                    Settings.Default.button52 = button52.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button51":
+                    button51.Text = myValue.ToString();
+                    Settings.Default.button51 = button51.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button50":
+                    button50.Text = myValue.ToString();
+                    Settings.Default.button50 = button50.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button49":
+                    button49.Text = myValue.ToString();
+                    Settings.Default.button49 = button49.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button48":
+                    button48.Text = myValue.ToString();
+                    Settings.Default.button48 = button48.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button47":
+                    button47.Text = myValue.ToString();
+                    Settings.Default.button47 = button47.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button46":
+                    button46.Text = myValue.ToString();
+                    Settings.Default.button46 = button46.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button45":
+                    button45.Text = myValue.ToString();
+                    Settings.Default.button45 = button45.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button44":
+                    button44.Text = myValue.ToString();
+                    Settings.Default.button44 = button44.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button43":
+                    button43.Text = myValue.ToString();
+                    Settings.Default.button43 = button43.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button42":
+                    button42.Text = myValue.ToString();
+                    Settings.Default.button42 = button42.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button41":
+                    button41.Text = myValue.ToString();
+                    Settings.Default.button41 = button41.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button40":
+                    button40.Text = myValue.ToString();
+                    Settings.Default.button40 = button40.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button39":
+                    button39.Text = myValue.ToString();
+                    Settings.Default.button39 = button39.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button38":
+                    button38.Text = myValue.ToString();
+                    Settings.Default.button38 = button38.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button37":
+                    button37.Text = myValue.ToString();
+                    Settings.Default.button37 = button37.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button36":
+                    button36.Text = myValue.ToString();
+                    Settings.Default.button36 = button36.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button35":
+                    button35.Text = myValue.ToString();
+                    Settings.Default.button35 = button35.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button34":
+                    button34.Text = myValue.ToString();
+                    Settings.Default.button34 = button34.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button33":
+                    button33.Text = myValue.ToString();
+                    Settings.Default.button33 = button33.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button32":
+                    button32.Text = myValue.ToString();
+                    Settings.Default.button32 = button32.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button31":
+                    button31.Text = myValue.ToString();
+                    Settings.Default.button31 = button31.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button30":
+                    button30.Text = myValue.ToString();
+                    Settings.Default.button30 = button30.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button29":
+                    button29.Text = myValue.ToString();
+                    Settings.Default.button29 = button29.Text;
+                    Settings.Default.Save();
+                    break;
                 case "button28":
                     button28.Text = myValue.ToString();
                     Settings.Default.button28 = button28.Text;
@@ -567,11 +837,11 @@ namespace Good_Morning
                     Settings.Default.button3 = button3.Text;
                     Settings.Default.Save();
                     break;
-                case "button2":
+                /*case "button2":
                     button2.Text = myValue.ToString();
                     Settings.Default.button2 = button2.Text;
                     Settings.Default.Save();
-                    break;
+                    break;*/
                 case "button1":
                     button1.Text = myValue.ToString();
                     Settings.Default.button1 = button1.Text;
@@ -584,5 +854,142 @@ namespace Good_Morning
             //ControlsName.Text = myValue.ToString();
 
         }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button35.Text);
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button36.Text);
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button37.Text);
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button38.Text);
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button39.Text);
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button40.Text);
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button41.Text);
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button48.Text);
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button47.Text);
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button46.Text);
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button45.Text);
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button44.Text);
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button43.Text);
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button42.Text);
+        }
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button55.Text);
+        }
+
+        private void button54_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button54.Text);
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button53.Text);
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button52.Text);
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button51.Text);
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button50.Text);
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button49.Text);
+        }
+
+        private void button56_Click(object sender, EventArgs e)
+        {
+            string path = System.Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
+            string completepath = Path.Combine(path + "\\");
+            //completepath = completepath + "\\";
+            //Console.WriteLine(completepath);
+            System.IO.Directory.CreateDirectory(completepath + "Good_Morning");
+            string time = DateTime.Now.ToString("HH-mm-ss");
+            string date = DateTime.Now.ToString("dd-MM-yyyy");
+            string fullname1 = date + "-" + time + "-vardia1.txt";
+            string fullname2 = date + "-" + time + "-vardia2.txt";
+            Process.Start(completepath + "Good_Morning\\");
+        }
+
+
+
+
+
+
+
+
+        /*
+        private void button58_Click(object sender, EventArgs e)
+        {
+            string strCmdText;
+            string strCmdText2;
+            strCmdText2 = "cd D:/";
+            strCmdText = "./vardia2.txt";
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText2);
+            System.Diagnostics.Process.Start("CMD.exe", strCmdText);
+        }*/
     }
 }

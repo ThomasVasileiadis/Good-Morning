@@ -55,13 +55,19 @@
     <ManifestKeyFile>Good Morning_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Cash_Register_icon-icons.com_56684.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
@@ -102,7 +108,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Good Morning_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -133,6 +138,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cash_Register_icon-icons.com_56684.ico" />
+    <None Include="Resources\Hopstarter-Sleek-Xp-Basic-Folder.ico" />
+    <None Include="Resources\folder_my_documents_15435.ico" />
+    <None Include="Resources\download %281%29.png" />
+    <None Include="Resources\goodmorning.png" />
+    <None Include="Resources\Aha-Soft-Free-3d-Glossy-Interface-Add.ico" />
+    <None Include="Resources\Hopstarter-Button-Button-Close.ico" />
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-document-save.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
