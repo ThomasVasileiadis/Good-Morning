@@ -78,6 +78,27 @@ namespace Good_Morning
         private Rectangle button56OriginalRect;
         private Rectangle button57OriginalRect;
         private Rectangle button58OriginalRect;
+        private Rectangle button60OriginalRect;
+        private Rectangle button61OriginalRect;
+        private Rectangle button62OriginalRect;
+        private Rectangle button63OriginalRect;
+        private Rectangle button64OriginalRect;
+        private Rectangle button65OriginalRect;
+        private Rectangle button66OriginalRect;
+        private Rectangle button67OriginalRect;
+        private Rectangle button68OriginalRect;
+        private Rectangle button69OriginalRect;
+        private Rectangle button70OriginalRect;
+        private Rectangle button71OriginalRect;
+        private Rectangle button72OriginalRect;
+        private Rectangle button73OriginalRect;
+        private Rectangle button74OriginalRect;
+        private Rectangle button75OriginalRect;
+        private Rectangle button76OriginalRect;
+        private Rectangle button77OriginalRect;
+        private Rectangle button78OriginalRect;
+        private Rectangle button79OriginalRect;
+        private Rectangle button80OriginalRect;
         private Rectangle listOriginalRect;
         private Size formOriginalSize;
 
@@ -158,6 +179,29 @@ namespace Good_Morning
             //button56.Text = Settings.Default.button56;
             //button57.Text = Settings.Default.button57;
             //button58.Text = Settings.Default.button58;
+            button60.Text = Settings.Default.button60;
+            button61.Text = Settings.Default.button61;
+            button62.Text = Settings.Default.button62;
+            button63.Text = Settings.Default.button63;
+            button64.Text = Settings.Default.button64;
+            button65.Text = Settings.Default.button65;
+            button66.Text = Settings.Default.button66;
+            button67.Text = Settings.Default.button67;
+            button68.Text = Settings.Default.button68;
+            button69.Text = Settings.Default.button69;
+            button70.Text = Settings.Default.button70;
+            button71.Text = Settings.Default.button71;
+            button72.Text = Settings.Default.button72;
+            button73.Text = Settings.Default.button73;
+            button74.Text = Settings.Default.button74;
+            button75.Text = Settings.Default.button75;
+            button76.Text = Settings.Default.button76;
+            button77.Text = Settings.Default.button77;
+            button78.Text = Settings.Default.button78;
+            button79.Text = Settings.Default.button79;
+            button80.Text = Settings.Default.button80;
+            
+
 
 
 
@@ -221,6 +265,27 @@ namespace Good_Morning
             button55OriginalRect = new Rectangle(button55.Location.X, button55.Location.Y, button55.Width, button55.Height);
             button56OriginalRect = new Rectangle(button56.Location.X, button56.Location.Y, button56.Width, button56.Height);
             //button58OriginalRect = new Rectangle(button58.Location.X, button58.Location.Y, button58.Width, button58.Height);
+            button60OriginalRect = new Rectangle(button60.Location.X, button60.Location.Y, button60.Width, button60.Height);
+            button61OriginalRect = new Rectangle(button61.Location.X, button61.Location.Y, button61.Width, button61.Height);
+            button62OriginalRect = new Rectangle(button62.Location.X, button62.Location.Y, button62.Width, button62.Height);
+            button63OriginalRect = new Rectangle(button63.Location.X, button63.Location.Y, button63.Width, button63.Height);
+            button64OriginalRect = new Rectangle(button64.Location.X, button64.Location.Y, button64.Width, button64.Height);
+            button65OriginalRect = new Rectangle(button65.Location.X, button65.Location.Y, button65.Width, button65.Height);
+            button66OriginalRect = new Rectangle(button66.Location.X, button66.Location.Y, button66.Width, button66.Height);
+            button67OriginalRect = new Rectangle(button67.Location.X, button67.Location.Y, button67.Width, button67.Height);
+            button68OriginalRect = new Rectangle(button68.Location.X, button68.Location.Y, button68.Width, button68.Height);
+            button69OriginalRect = new Rectangle(button69.Location.X, button69.Location.Y, button69.Width, button69.Height);
+            button70OriginalRect = new Rectangle(button70.Location.X, button70.Location.Y, button70.Width, button70.Height);
+            button71OriginalRect = new Rectangle(button71.Location.X, button71.Location.Y, button71.Width, button71.Height);
+            button72OriginalRect = new Rectangle(button72.Location.X, button72.Location.Y, button72.Width, button72.Height);
+            button73OriginalRect = new Rectangle(button73.Location.X, button73.Location.Y, button73.Width, button73.Height);
+            button74OriginalRect = new Rectangle(button74.Location.X, button74.Location.Y, button74.Width, button74.Height);
+            button75OriginalRect = new Rectangle(button75.Location.X, button75.Location.Y, button75.Width, button75.Height);
+            button76OriginalRect = new Rectangle(button76.Location.X, button76.Location.Y, button76.Width, button76.Height);
+            button77OriginalRect = new Rectangle(button77.Location.X, button77.Location.Y, button77.Width, button77.Height);
+            button78OriginalRect = new Rectangle(button78.Location.X, button78.Location.Y, button78.Width, button78.Height);
+            button79OriginalRect = new Rectangle(button79.Location.X, button79.Location.Y, button79.Width, button79.Height);
+            button80OriginalRect = new Rectangle(button80.Location.X, button80.Location.Y, button80.Width, button80.Height);
             listOriginalRect = new Rectangle(list.Location.X, list.Location.Y, list.Width, list.Height);
             
     }
@@ -285,6 +350,27 @@ namespace Good_Morning
             resizeControl(button54OriginalRect, button54);
             resizeControl(button55OriginalRect, button55);
             resizeControl(button56OriginalRect, button56);
+            resizeControl(button60OriginalRect, button60);
+            resizeControl(button61OriginalRect, button61);
+            resizeControl(button62OriginalRect, button62);
+            resizeControl(button63OriginalRect, button63);
+            resizeControl(button64OriginalRect, button64);
+            resizeControl(button65OriginalRect, button65);
+            resizeControl(button66OriginalRect, button66);
+            resizeControl(button67OriginalRect, button67);
+            resizeControl(button68OriginalRect, button68);
+            resizeControl(button69OriginalRect, button69);
+            resizeControl(button70OriginalRect, button70);
+            resizeControl(button71OriginalRect, button71);
+            resizeControl(button72OriginalRect, button72);
+            resizeControl(button73OriginalRect, button73);
+            resizeControl(button74OriginalRect, button74);
+            resizeControl(button75OriginalRect, button75);
+            resizeControl(button76OriginalRect, button76);
+            resizeControl(button77OriginalRect, button77);
+            resizeControl(button78OriginalRect, button78);
+            resizeControl(button79OriginalRect, button79);
+            resizeControl(button80OriginalRect, button80);
             resizeControl(listOriginalRect, list);
         }
 
@@ -577,6 +663,111 @@ namespace Good_Morning
 
             switch (ControlsName)
             {
+                case "button80":
+                    button80.Text = myValue.ToString();
+                    Settings.Default.button80 = button80.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button79":
+                    button79.Text = myValue.ToString();
+                    Settings.Default.button79 = button79.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button78":
+                    button78.Text = myValue.ToString();
+                    Settings.Default.button78 = button78.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button77":
+                    button77.Text = myValue.ToString();
+                    Settings.Default.button77 = button77.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button76":
+                    button76.Text = myValue.ToString();
+                    Settings.Default.button76 = button76.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button75":
+                    button75.Text = myValue.ToString();
+                    Settings.Default.button75 = button75.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button74":
+                    button74.Text = myValue.ToString();
+                    Settings.Default.button74 = button74.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button73":
+                    button73.Text = myValue.ToString();
+                    Settings.Default.button73 = button73.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button72":
+                    button72.Text = myValue.ToString();
+                    Settings.Default.button72 = button72.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button71":
+                    button71.Text = myValue.ToString();
+                    Settings.Default.button71 = button71.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button70":
+                    button70.Text = myValue.ToString();
+                    Settings.Default.button70 = button70.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button69":
+                    button69.Text = myValue.ToString();
+                    Settings.Default.button69 = button69.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button68":
+                    button69.Text = myValue.ToString();
+                    Settings.Default.button68 = button68.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button67":
+                    button67.Text = myValue.ToString();
+                    Settings.Default.button67 = button67.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button66":
+                    button66.Text = myValue.ToString();
+                    Settings.Default.button66 = button66.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button65":
+                    button65.Text = myValue.ToString();
+                    Settings.Default.button65 = button65.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button64":
+                    button64.Text = myValue.ToString();
+                    Settings.Default.button64 = button64.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button63":
+                    button63.Text = myValue.ToString();
+                    Settings.Default.button63 = button63.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button62":
+                    button62.Text = myValue.ToString();
+                    Settings.Default.button62 = button62.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button61":
+                    button61.Text = myValue.ToString();
+                    Settings.Default.button61 = button61.Text;
+                    Settings.Default.Save();
+                    break;
+                case "button60":
+                    button54.Text = myValue.ToString();
+                    Settings.Default.button60 = button60.Text;
+                    Settings.Default.Save();
+                    break;
                 case "button54":
                     button54.Text = myValue.ToString();
                     Settings.Default.button54 = button54.Text;
@@ -973,6 +1164,113 @@ namespace Good_Morning
             string fullname2 = date + "-" + time + "-vardia2.txt";
             Process.Start(completepath + "Good_Morning\\");
         }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button77.Text);
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button66.Text);
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button65.Text);
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button63.Text);
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button64.Text);
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button62.Text);
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button61.Text);
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button60.Text);
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button79.Text);
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button80.Text);
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button78.Text);
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button76.Text);
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button75.Text);
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button73.Text);
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button74.Text);
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button72.Text);
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button71.Text);
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button70.Text);
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button69.Text);
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button68.Text);
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            list.Items.Add(button67.Text);
+        }
+
+
 
 
 
